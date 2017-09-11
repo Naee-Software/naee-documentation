@@ -19,9 +19,9 @@
                     "default": false
                 },
                 {
-                    “lang”: “kotlin”,
-                    “name”: “Kotlin”,
-                    “default”: false
+                    "lang": "kotlin",
+                    "name": "Kotlin",
+                    "default": false
                 }
             ]
         }
