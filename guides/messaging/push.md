@@ -22,7 +22,8 @@ PushManager.send(message) { error ->
         // message was correctly sent to all registered device
     }
 }
-```{% endmethod %}
+```
+{% endmethod %}
 ## Configure your Project for Push Notifications
 In **naee Studio**, for each push system that your app will support, provide the credential or certificates.
 ### Apple

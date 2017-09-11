@@ -12,6 +12,7 @@ MailManager.send(message) {error in
 
 }
 ```
+
 {% endmethod %}
 ## Mail configuration
 In order to send mail message from your app, in **naee Studio** you have to configure the project for the chosen mail provider:
