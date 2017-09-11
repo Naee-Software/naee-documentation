@@ -140,13 +140,11 @@ Few lines of code and your data is on the cloud! That’s amazing, isn’t it?
 
 ## Search documents
 
+{% method %}
+
 Saving documents on the cloud is a good thing, but retrieving them is even better.
 
 Let’s search for documents having title containing the word “document”, as the one we just created.
-
-Easy ah? More on queries and documents in later section of this site.
-
-{% method %}
 
 {% sample lang="swift" %}
 ```swift
@@ -188,6 +186,8 @@ query.fetchDocuments(new DocumentsCallback(documents, error) {
 ```
 
 {% endmethod %}
+
+Easy ah? More on queries and documents in later section of this site.
 
 ## What now?
 
