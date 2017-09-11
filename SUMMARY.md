@@ -3,6 +3,7 @@
 ## Overview
 
 * [Introduction](README.md)
+* [FAQ](faq.md)
 * [Getting started](start.md)
 
 ## Data
