@@ -6,11 +6,22 @@
                 {
                     "lang": "js",
                     "name": "JavaScript",
+                    "default": false
+                },
+                {
+                    "lang": "swift",
+                    "name": "Swift",
                     "default": true
                 },
                 {
-                    "lang": "go",
-                    "name": "Go"
+                    "lang": "java",
+                    "name": "Java",
+                    "default": false
+                },
+                {
+                    “lang”: “kotlin”,
+                    “name”: “Kotlin”,
+                    “default”: false
                 }
             ]
         }
