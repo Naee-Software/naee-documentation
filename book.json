@@ -1,6 +1,7 @@
 {
     "plugins": [ 
         "theme-api",
+        "toggle-headers",
         "toggle-chapters"
     ],
     "pluginsConfig": {
