@@ -3,7 +3,8 @@
 
 1. Create a MailMessage with subject, body and even attachments
 2. Use MailManager to send the message, specifying recipients and other send options
-
+{% method %}
+{% sample lang="swift" %}
 ```swift
 let message = MailMessage(subject: “Hello world”,
                           body: “A message from my app”)
@@ -11,6 +12,7 @@ MailManager.send(message) {error in
 
 }
 ```
+{% endmethod %}
 ## Mail configuration
 In order to send mail message from your app, in **naee Studio** you have to configure the project for the chosen mail provider:
 
