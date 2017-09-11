@@ -1,7 +1,7 @@
 {
     "plugins": [ 
         "theme-api",
-        "collapsible-menu"
+        "toggle-chapters"
     ],
     "pluginsConfig": {
         "theme-api": {
