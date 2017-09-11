@@ -67,25 +67,29 @@ They are automatically generated during the project creation. To obtain them:
 2. Click the info button (i) on the bottom right corner of your project’s icon
 3. A popover will display the project’s keys.
 
-Typically you configure the client in the entry point of your application, such as the AppDelegate on Apple platform, or in the Main Activity on Android. You can even configure the client inserting the key into the app info.plist (Apple) or manifest (Android), but for the momento we’ll use the code way:
+{% method %}
 
-*In Swift* (Apple platforms)
+Typically you configure the client in the entry point of your application, such as the AppDelegate on Apple platform, or in the Main Activity on Android. You can even configure the client inserting the key into the app info.plist (Apple) or manifest (Android), but for the momento we’ll use the code way.
+
+{% sample lang=“swift” %}
 
 ```swift
 Client.default.configure(clientId: “*your client id*, clientKey: “*your client key*)
 ```
 
-*In Kotlin* (Android)
+{% sample lang=“kotlin” %}
 
 ```kotlin
 Client.default.configure(“*your client id*”, “*your client key*”)
 ```
 
-*In Java* (Android)
+{% sample lang=“java” %}
 
 ```java
 Client.default.configure”*your client id*”, “*your client key*”);
 ```
+
+{% endmethod %}
 
 *Note:* normally the syntactical differences on the various languages are very subtle that now on we’ll show only the Swift version, with some particular exceptions.
 
@@ -144,8 +148,7 @@ Easy ah? More on queries and documents in later section of this site.
 
 {% method %}
 
-{% sample lang="swift" %}
-
+{% sample lang=“swift” %}
 ```swift
 let collection = Collection(name: “Test”)
 let query = Query(collection: collection)
@@ -158,8 +161,7 @@ query.fetchDocuments { documents, error in
 }
 ```
 
-{% sample lang="kotlin" %}
-
+{% sample lang=“kotlin” %}
 ```kotlin
 val collection = Collection(“Test”)
 val query = Query(collection)
@@ -172,8 +174,7 @@ query.fetchDocuments { documents, error ->
 }
 ```
 
-{% sample lang="java" %}
-
+{% sample lang=“java” %}
 ```java
 Collection collection = new Collection(“Test”);
 Query query = new Query(collection)
