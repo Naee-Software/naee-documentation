@@ -6,7 +6,7 @@ The good part is that in your app, you don't have to care if a File is referenci
 Let's see some examples:
 {% method %}
 ### Upload some data and create a File document
-{% sample lang=“swift” %}
+{% sample lang="swift" %}
 ```swift
 let url = ...
 let file = File(fromURL: url)
@@ -17,7 +17,7 @@ file.save { error in
 	}
 }
 ```
-{% sample lang=“kotlin” %}
+{% sample lang="kotlin" %}
 ```kotlin
 val url = ...
 val file = File(url)
@@ -28,7 +28,7 @@ file.save { error ->
 	}
 }
 ```
-{% sample lang=“java” %}
+{% sample lang="java" %}
 ```java
 Uri url = ...
 File file = new File(url);
@@ -41,7 +41,7 @@ file.save( new FileCallback( { file in
 {% endmethod %}
 {% method %}
 ### Create a File document referencing an external url
-{% sample lang=“swift” %}
+{% sample lang="swift" %}
 ```swift
 let url = ...
 let file = File(fromExternalURL: url)
@@ -55,7 +55,7 @@ file.save { error in
 {% endmethod %}
 {% method %}
 ### Get the data referenced by a File document
-{% sample lang=“swift” %}
+{% sample lang="swift" %}
 ```swift
 let file = ..
 file.fetchContent { data, error in 
