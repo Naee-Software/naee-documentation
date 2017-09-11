@@ -6,7 +6,7 @@
 * [Getting started](start.md)
 * [Projects](/projects.md)
 * [Installing **naee** SDK](/install.md)
-* [FAQ](https://www.gitbook.com/book/naee/naee/edit#)
+* [FAQ](/faq.md)
 
 # Guides
 
