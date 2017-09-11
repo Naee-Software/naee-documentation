@@ -148,7 +148,7 @@ Easy ah? More on queries and documents in later section of this site.
 
 {% method %}
 
-{% sample lang=“swift” %}
+{% sample lang="swift" %}
 ```swift
 let collection = Collection(name: “Test”)
 let query = Query(collection: collection)
@@ -161,7 +161,7 @@ query.fetchDocuments { documents, error in
 }
 ```
 
-{% sample lang=“kotlin” %}
+{% sample lang="kotlin" %}
 ```kotlin
 val collection = Collection(“Test”)
 val query = Query(collection)
@@ -174,7 +174,7 @@ query.fetchDocuments { documents, error ->
 }
 ```
 
-{% sample lang=“java” %}
+{% sample lang="java" %}
 ```java
 Collection collection = new Collection(“Test”);
 Query query = new Query(collection)
