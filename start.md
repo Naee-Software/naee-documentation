@@ -142,6 +142,8 @@ Let’s search for documents having title containing the word “document”, as
 
 Easy ah? More on queries and documents in later section of this site.
 
+{% method %}
+
 {% sample lang="swift" %}
 
 ```swift
