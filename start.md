@@ -67,25 +67,29 @@ They are automatically generated during the project creation. To obtain them:
 2. Click the info button (i) on the bottom right corner of your project’s icon
 3. A popover will display the project’s keys.
 
-Typically you configure the client in the entry point of your application, such as the AppDelegate on Apple platform, or in the Main Activity on Android. You can even configure the client inserting the key into the app info.plist (Apple) or manifest (Android), but for the momento we’ll use the code way:
+{% method %}
 
-*In Swift* (Apple platforms)
+Typically you configure the client in the entry point of your application, such as the AppDelegate on Apple platform, or in the Main Activity on Android. You can even configure the client inserting the key into the app info.plist (Apple) or manifest (Android), but for the momento we’ll use the code way.
+
+{% sample lang="swift" %}
 
 ```swift
 Client.default.configure(clientId: “*your client id*, clientKey: “*your client key*)
 ```
 
-*In Kotlin* (Android)
+{% sample lang="kotlin" %}
 
 ```kotlin
 Client.default.configure(“*your client id*”, “*your client key*”)
 ```
 
-*In Java* (Android)
+{% sample lang="java" %}
 
 ```java
 Client.default.configure”*your client id*”, “*your client key*”);
 ```
+
+{% endmethod %}
 
 *Note:* normally the syntactical differences on the various languages are very subtle that now on we’ll show only the Swift version, with some particular exceptions.
 
