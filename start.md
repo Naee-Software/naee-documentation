@@ -91,10 +91,10 @@ Client.default.configure”*your client id*”, “*your client key*”);
 
 ## Create your first document
 
+{% method %}
 The Client is configured and we can create our first document in the Collection “Test”.
 
-*In Swift* (Apple platforms)
-
+{% sample lang="swift" %}
 ```swift
 let collection = Collection(name: “Test”)
 let document = Document(collection: collection)
@@ -106,8 +106,7 @@ document.save { error in
 }
 ```
 
-*In Kotlin* (Android)
-
+{% sample lang="kotlin" %}
 ```kotlin
 val collection = Collection(“Test”)
 val document = Document(collection)
@@ -119,8 +118,7 @@ document.save { error ->
 }
 ```
 
-*In Java* (Android)
-
+{% sample lang="java" %}
 ```java
 Collection collection = new Collection(“Test”);
 Document document = new Document(collection);
@@ -131,6 +129,7 @@ document.save(new DocumentCallback(NError error) {
 	}
 });
 ```
+{% endmethod %}
 
 Few lines of code and your data is on the cloud! That’s amazing, isn’t it? 
 
